@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান</title>
-    <meta name="description" content="গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান">
-    <meta name="author" content="Sayful Islam" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="../../../images/favicon.ico">
-	
-	<!-- The following two elements pull in the styles for the default template functionality  -->
-	<link href="../../../styles/normalize.css" rel="stylesheet" type="text/css">
-	
-	<!-- Below is your custom application stylesheet -->
 	<link href="../../../styles/app.css" rel="stylesheet" type="text/css">
-
-	<!--[if le IE 9]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="../../../scripts/respond.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" href="../../../styles/jquery.mobile-1.4.5.min.css">
+	<script src="../../../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../../../scripts/jquery.mobile-1.4.5.min.js"></script>
 </head>
-
 <body>
-	<div class="container">
-		<header>
-			<h1>১ম পরিচ্ছেদ - রাষ্ট্রপতি</h1>
-		</header>
-		<article>
-		    <nav id="menu">
-		        <ul>
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+		<h1>১ম পরিচ্ছেদ - রাষ্ট্রপতি</h1>
+  	</div>
+
+  	<div data-role="main" class="ui-content">
+		        <ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
 		            <li><a href="48.html">৪৮। রাষ্ট্রপতি</a></li>
 		            <li><a href="49.html">৪৯। ক্ষমা প্রদর্শনের অধিকার</a></li>
 		            <li><a href="50.html">৫০। রাষ্ট্রপতি-পদের মেয়াদ</a></li>
@@ -37,20 +28,19 @@
 		            <li><a href="53.html">৫৩। অসামর্থ্যের কারণে রাষ্ট্রপতির অপসারণ</a></li>
 		            <li><a href="54.html">৫৪। অনুপস্থিতি প্রভৃতির-কালে রাষ্ট্রপতি-পদে স্পীকার</a></li>
 		        </ul>
-		    </nav>
-		</article> 
-		<footer>
-			<div class="back_link">
-				<script type="text/javascript">
-				    var goBack = function(){
-				        window.history.go(-1);
-				    }
-				</script>
-				<a href="" onclick="goBack()">পিছনে ফিরে যান</a>
-				<a href="../../index.html">সূচীপত্র</a>
-			</div>
-		</footer>
-	</div><!--.container-->
-</body>
+  	</div>
 
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="../../index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a></li>
+  				<li><a href="../../app-info.html" data-icon="info">তথ্য</a></li>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+</body>
 </html>

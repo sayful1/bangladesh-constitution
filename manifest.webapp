@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "name": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান",
+  "version": "2.0",
+  "name": "সংবিধান",
   "description": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান",
   "launch_path": "/index.html",
   "icons": {
@@ -15,5 +15,15 @@
   "installs_allowed_from": [
     "*"
   ],
-  "default_locale": "en"
+  "default_locale": "bn-BD",
+  "locales": {
+    "en": {
+      "name": "BD Constitution",
+      "description": "The Constitution of the People's Republic of Bangladesh"
+    },
+    "bn-BD": {
+      "name": "সংবিধান",
+      "description": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান"
+    }
+  }
 }

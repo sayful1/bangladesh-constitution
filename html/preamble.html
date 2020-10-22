@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান</title>
-    <meta name="description" content="গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান">
-    <meta name="author" content="Sayful Islam" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="../images/favicon.ico">
-	
-	<!-- The following two elements pull in the styles for the default template functionality  -->
-	<link href="../styles/normalize.css" rel="stylesheet" type="text/css">
-	
-	<!-- Below is your custom application stylesheet -->
 	<link href="../styles/app.css" rel="stylesheet" type="text/css">
-
-	<!--[if le IE 9]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="../scripts/respond.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" href="../styles/jquery.mobile-1.4.5.min.css">
+	<script src="../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
 </head>
-
 <body>
-	<div class="container">
-		<header>
-			<h1>প্রস্তাবনা</h1>
-		</header>
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+		<h1>প্রস্তাবনা</h1>
+  	</div>
+
+  	<div data-role="main" class="ui-content">
 		<article>
 			<h3 style="text-align: center;">১[ বিস্&zwnj;মিল্লাহির-রহ্&zwnj;মানির রহিম<br />&nbsp;<br />(দয়াময়, পরম দয়ালু, আল্লাহের নামে)/<br /><br />পরম করুণাময় সৃষ্টিকর্তার নামে।]<br /><br />প্রস্তাবনা</h3>
 
@@ -33,18 +26,35 @@
 			<hr />
 			<small><br>১ সংবিধান (পঞ্চদশ সংশোধন) আইন, ২০১১ (২০১১ সনের ১৪ নং আইন)-এর ২ ধারাবলে &lsquo;&lsquo;বিস্&zwnj;মিল্লাহির-রহ্&zwnj;মানির রহিম (দয়াময়, পরম দয়ালু, আল্লাহের নামে)&rsquo;&rsquo; শব্দগুলি, কমাগুলি, চিহ্নগুলি ও বন্ধনীর পরিবর্তে প্রতিস্থাপিত।<br /><br />২ সংবিধান (পঞ্চদশ সংশোধন) আইন, ২০১১ (২০১১ সনের ১৪ নং আইন)-এর ৩ ধারাবলে &lsquo;&lsquo;জাতীয় স্বাধীনতার জন্য ঐতিহাসিক যুদ্ধের&rsquo;&rsquo; শব্দগুলির পরিবর্তে প্রতিস্থাপিত।<br /><br />৩ সংবিধান (পঞ্চদশ সংশোধন) আইন, ২০১১ (২০১১ সনের ১৪ নং আইন)-এর ৩ ধারাবলে দ্বিতীয় অনুচ্ছেদের পরিবর্তে প্রতিস্থাপিত।<br></small>
 		</article> 
-		<footer>
-			<div class="back_link">
-				<script type="text/javascript">
-				    var goBack = function(){
-				        window.history.go(-1);
-				    }
-				</script>
-				<a href="" onclick="goBack()">পিছনে ফিরে যান</a>
-				<a href="index.html">সূচীপত্র</a>
-			</div>
-		</footer>
-	</div><!--.container-->
-</body>
+  	</div>
 
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a></li>
+  				<li><a href="#information_page" data-icon="info">তথ্য</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+<div data-role="page" data-dialog="true" id="information_page"  data-theme="c">
+  	<div data-role="header">
+    	<h1>অ্যাপ্লিকেশন সম্পর্কিত তথ্য</h1>
+	</div>
+	<div data-role="main" class="ui-content">
+		<p>এই অ্যপের সম্পূর্ণ তথ্য গণপ্রজাতন্ত্রী বাংলাদেশের সরকারের The Information System of the Laws of Bangladesh এর ওয়েবসাইট থেকে নেওয়া হয়েছে।<br><br>ষোড়শ সংশোধন (২০১৪ সনের ১৩ নং আইন) পর্যন্ত অন্তর্ভূক্ত করা হয়েছে।<br><br>এতে ব্যবহৃত তথ্য হালনাগাদ না ও থাকতে পারে । হালনাগাদকৃত তথ্য পেতে গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয় কতৃক প্রকাশিত মূল সংবিধান দেখুন</p>
+		<div class="author">
+		    <p>উন্মুক্ত ওয়েব অ্যাপ্লিকেশন হিসাবে ডিজাইন এবং নির্মাতা: <a href="http://sayful.net" target="_blank">সাইফুল ইসলাম</a></p>
+		    <a href="http://sayful.net" target="_blank">
+				<img src="../images/author.png" alt="" title="Sayful Islam" />
+			</a>
+		</div>
+	</div>
+	<div data-role="footer"></div>
+</div>
+
+</body>
 </html>

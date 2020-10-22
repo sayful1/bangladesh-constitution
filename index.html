@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান</title>
-    <meta name="description" content="গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান">
-    <meta name="author" content="Sayful Islam" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="images/favicon.ico">
-	
-	<!-- The following two elements pull in the styles for the default template functionality  -->
-	<link href="styles/normalize.css" rel="stylesheet" type="text/css">
-	
-	<!-- Below is your custom application stylesheet -->
 	<link href="styles/app.css" rel="stylesheet" type="text/css">
-
-	<!--[if le IE 9]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="scripts/respond.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+	<meta http-equiv="refresh" content="3; url=html/index.html" />
 </head>
-
 <body>
-	<div class="container">
-		<div class="app_logo">
-		    <img src="images/bd-con.jpg" alt="" />
-		</div>
-		<div class="back_link">
-			<a href="html/index.html">প্রবেশ</a>
-		</div>
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+    	<a href="#homepageinfo" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান</h1>
+  		<a href="html/app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+
+  	<div data-role="main" class="ui-content">
+		<div class="container">
+			<div class="app_logo">
+			    <img src="app-icons/icon-128.png" alt="গণপ্রজাতন্ত্রী বাংলাদেশের সরকার" />
+			    <h2>গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান</h2>
+			</div>
+                <a href="html/index.html" class="ui-btn ui-icon-forward ui-btn-icon-left">প্রবেশ (বাংলা সংস্করণ)</a>
+		</div><!--.container-->
+  	</div>
+
+  	<div data-role="footer" data-position="fixed"></div>
+
+</div>
+
+<div data-role="page" data-dialog="true" id="homepageinfo">
+  	<div data-role="header">
+    	<h1>অ্যাপ্লিকেশন সম্পর্কিত তথ্য</h1>
+	</div>
+	<div data-role="main" class="ui-content">
+		<p>এই অ্যপের সম্পূর্ণ তথ্য গণপ্রজাতন্ত্রী বাংলাদেশের সরকারের The Information System of the Laws of Bangladesh এর ওয়েবসাইট থেকে নেওয়া হয়েছে।<br><br>ষোড়শ সংশোধন (২০১৪ সনের ১৩ নং আইন) পর্যন্ত অন্তর্ভূক্ত করা হয়েছে।<br><br>এতে ব্যবহৃত তথ্য হালনাগাদ না ও থাকতে পারে । হালনাগাদকৃত তথ্য পেতে গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয় কতৃক প্রকাশিত মূল সংবিধান দেখুন</p>
 		<div class="author">
-		    <p>প্রস্তুতকারক: <a href="http://sayful.net" target="_blank">সাইফুল ইসলাম</a></p>
+		    <p>উন্মুক্ত ওয়েব অ্যাপ্লিকেশন হিসাবে ডিজাইন এবং নির্মাতা: <a href="http://sayful.net" target="_blank">সাইফুল ইসলাম</a></p>
 		    <a href="http://sayful.net" target="_blank">
-				<img src="images/author.jpg" alt="" title="Sayful Islam" />
+				<img src="images/author.png" alt="" title="Sayful Islam" />
 			</a>
 		</div>
-	</div><!--.container-->
-</body>
+	</div>
+	<div data-role="footer"></div>
+</div>
 
+</body>
 </html>
